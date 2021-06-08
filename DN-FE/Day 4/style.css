@@ -1,0 +1,51 @@
+body{
+    background-color: #e4f9f5;
+    background-image:url("https://images.unsplash.com/photo-1593642532400-2682810df593?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+}
+
+.clock{
+    background-color: #30e3ca;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    border: 10px solid #11999e;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.hour{
+    background-color: #303841;
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
+}
+
+.second{
+    background-color: #ff2e63;
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
+}
+
+.minute{
+    background-color: #6639a6;
+    width: 2.5px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
+}
