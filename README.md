@@ -81,4 +81,36 @@
                 </ul> -->
         </ul>
     </div>
+    <div>
+        <li>Day 6</li>
+        <ul>
+            <li>Javascript Arrays</li>
+            <p>
+            Array and Accessing Elements
+            Javascript Arrays, Accessing, .concat, .join, slice, indexOf(value), lastIndexOf(value),
+            .
+            Iterating List
+            forEach, forOf, forIn, Simple For,
+            a.some(item=> item===10),a.every(item=>item===1),a.filter(item=>item==1),map(item=>item=10)
+            a.reduce((acc,item)=>{
+                acc=acc+item;
+                retun acc;
+            },0);
+            .
+            Mutating List
+            .pop,.reverse,.push,.sort, splice,shift,unshift,.length(),
+            sort((a,b)=> a-b);
+            splice(start,delete count, items);
+            shift - pop from front
+            unshift - push from front
+            .
+            toString
+            toLocaleString
+            isArray
+            sort
+            splice
+            length
+            </p>
+        </ul>
+    </div>
 </ul>
