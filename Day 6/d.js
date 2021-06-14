@@ -1,5 +1,5 @@
 function convert_string(color) {
-    return color.toString();
+  return color.toString();
 }
 
 myColor = ["Red", "Green", "White", "Black"];
