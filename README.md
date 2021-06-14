@@ -113,4 +113,17 @@
             </p>
         </ul>
     </div>
+    <div>
+        <li>Day 7</li>
+        <ul>
+            <li>Javascript Objects</li>
+            <p>
+            Syntax - Create an Object ={},=new Object({});,=Object.Create({});,
+            Dot Notation, Bracket Notation, Methods in Objects - 
+            Create Properties from outside object, Object are Mutable, 
+            for in loop, Nested Objects, Object.Keys(objectName), Object.Values(objectName),
+            Object.freeze(objectName), Object.getOwnPropertyNames(objectName)
+            </p>
+        </ul>
+    </div>
 </ul>
