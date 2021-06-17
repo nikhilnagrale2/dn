@@ -9,9 +9,9 @@ function updateStatus(totalseat, occupiedseat) {
   this.totalSeats += totalseat;
   this.occupiedSeats += occupiedseat;
   document.getElementById("totalID").innerHTML =
-    "Total Seats " + this.totalSeats;
+    "Total Seats : " + this.totalSeats;
   document.getElementById("occupiedID").innerHTML =
-    "Occupied Seats " + this.occupiedSeats;
+    "Occupied Seats : " + this.occupiedSeats;
 }
 
 for (const eachbox of box) {
