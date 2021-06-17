@@ -2,8 +2,8 @@ body {
   text-align: center;
 }
 
-.box {
-  opacity: 0.5;
+.box:hover {
+  opacity: 0.9;
 }
 
 .container {
