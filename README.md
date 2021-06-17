@@ -1,4 +1,4 @@
-<h1>DN Web</h1>
+<h1>DN Web Front</h1>
 
 <ul>
     <div>
@@ -110,9 +110,25 @@
         <li>Day 9</li>
         <ul>
             <p>
-            window 
-            This Keyword
+            console.log(window), const new=window.open(), new.close(), new.location="https://google.in",
+            global scope ==> variables become property in window, function become method in window,
+            This Keyword,
+            global scope, function scope var with this keyword
+            call keyword with parameter,
+            apply keyword same as call keyword parameter are passed as array
+            bind keyword, same as call, but we can create kind of const for it and store the call and call whenever needed, functionname.call(object), functioname me this keyword,
+            Hoisting  - access variable before define => undefined, same for arrow function
+                        call funciton before define => correct output,
+            spread operator - creates clone not reference, create copy of two array and merge,
+            overwrite when two object copy, update values of object using spread operator
+            </p>
+            <li>Events and Event Listeners</li>
+            <p>
+            var x=document.querySelcctor(.classname);
+            x.addEventListener('click',()=>{  box.classlist.contains('classname')  })
+            
             </p>
         </ul>
     </div>
+
 </ul>
