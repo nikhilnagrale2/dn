@@ -3,29 +3,13 @@
 <ul>
     <div>
         <li>Day 1</li>
-        <!-- <ul>
-            <li>Positions</li>
-            <li>Display</li>
-            <li>Overflow</li>
-            <li>Positions</li>
-        </ul> -->
     </div>
     <div>
         <li>Day 2</li>
-        <!-- <ul>
-            <li>Positions</li>
-            <li>Display</li>
-            <li>Overflow</li>
-            <li>Positions</li>
-        </ul> -->
     </div>
     <div>
         <li>Day 3</li>
         <ul>
-            <!-- <li>Positions</li>
-            <li>Display</li>
-            <li>Overflow</li>
-            <li>Positions</li> -->
         </ul>
     </div>
     <div>
@@ -66,19 +50,6 @@
                                             var can have acceess in whole function
                                             let doesnt have access outside of block 
                 </p>
-            <!-- <li>Display</li>
-            <li>Overflow</li>
-            <li>Semantic Elements</li>
-                <ul>
-                    <li>Section</li>
-                    <li>Article</li>
-                    <li>Header</li>
-                    <li>Footer</li>
-                    <li>Nav</li>
-                    <li>Details - Summary</li>
-                    <li>Time</li>
-                    <li>Aside</li>
-                </ul> -->
         </ul>
     </div>
     <div>
@@ -114,15 +85,33 @@
         </ul>
     </div>
     <div>
-        <li>Day 7</li>
+        <li>Day 7 and 8</li>
         <ul>
             <li>Javascript Objects</li>
             <p>
-            Syntax - Create an Object ={},=new Object({});,=Object.Create({});,
+            Syntax - Create an Object ={},=new Object({});,=Object.Create(prototype object);,
             Dot Notation, Bracket Notation, Methods in Objects - 
             Create Properties from outside object, Object are Mutable, 
             for in loop, Nested Objects, Object.Keys(objectName), Object.Values(objectName),
-            Object.freeze(objectName), Object.getOwnPropertyNames(objectName)
+            Object.freeze(objectName), Object.getOwnPropertyNames(objectName),objectName.splice(),
+            Json.stringify, Json.parse
+            get and set on objects, delete property
+            Object Constructors
+            Object.assign(target,source);
+            spread operator for clone objects or arrays - newobje = {...source}
+            rest Parameters - a,b,...x   fun(a,b,x,c,c,d,d) a b will be assign rest will store in x array
+            Arguments Object - 
+            what if number of parameters we pass are higher than required - ans - it will only take required number of parameters 
+            rest parameter must be the last in parameter
+            </p>
+        </ul>
+    </div>
+    <div>
+        <li>Day 9</li>
+        <ul>
+            <p>
+            window 
+            This Keyword
             </p>
         </ul>
     </div>
