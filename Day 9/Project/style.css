@@ -1,0 +1,30 @@
+body {
+  text-align: center;
+}
+
+.box {
+  opacity: 0.5;
+}
+
+.container {
+  height: 640px;
+  width: 640px;
+  display: grid;
+  background-color: darksalmon;
+  margin: auto;
+  grid-template-columns: repeat(6, 16.7%);
+  grid-template-rows: repeat(6, 16.7%);
+  justify-items: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  background-color: tomato;
+  border: 1px solid white;
+}
+
+.boxClick {
+  background-color: red;
+}
