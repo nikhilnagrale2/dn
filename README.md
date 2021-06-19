@@ -35,7 +35,12 @@
         <li>Day 5</li>
         <ul>
             <li>Javascript Basics</li>
-            <p> typeof,console.log,for loop, let ,array, forEach, for item of arr,
+            <p> 
+                document - A global Object of a javascript
+                window.onload , document.getElementById(), getQuerySelectorAll()
+
+            
+                typeof,console.log,for loop, let ,array, forEach, for item of arr,
                 if else, variable dont have type values have, 
                 coersion to number ->Number() way, +n way, parseInt way
                 coersion to boolean -> !!() way or Boolean
