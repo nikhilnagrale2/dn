@@ -38,8 +38,12 @@
             <p> 
                 document - A global Object of a javascript
                 window.onload , document.getElementById(), getQuerySelectorAll()
-
-            
+                addEventListener, parseInt, 
+                Event Bubbling - In css = OnClick= "function()"
+	            In addEventListner function we can use event.stopPropogation
+                Event Capturing
+	            var are by default initialized undefined but let gives an error
+                .
                 typeof,console.log,for loop, let ,array, forEach, for item of arr,
                 if else, variable dont have type values have, 
                 coersion to number ->Number() way, +n way, parseInt way
