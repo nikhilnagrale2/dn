@@ -7,7 +7,7 @@ body {
 }
 
 .input-box {
-  margin: 50px;
+  margin: 20px;
 }
 
 #result {
@@ -30,13 +30,13 @@ h1 {
 }
 
 button {
-  height: 4em;
+  height: 3em;
   width: 100%;
   padding: 1.5em auto;
   margin: 1em auto;
   background-color: #feb1c0;
   border: none;
-  border-radius: 3px;
+  border-radius: 7px;
   letter-spacing: 0.5em;
   transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
