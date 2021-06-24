@@ -134,10 +134,35 @@
             <li>Events and Event Listeners</li>
             <p>
             var x=document.querySelcctor(.classname);
-            x.addEventListener('click',()=>{  box.classlist.contains('classname')  })
-            
+            x.addEventListener('click',()=>{  box.classlist.contains('classname')  })        
             </p>
         </ul>
     </div>
-
+    <div>
+        <li>Day 10</li>
+        <ul>
+            <p>
+            Functions
+            function expression
+            (function(){});
+            array function
+            anonymous function
+            arrow function
+            diffrence in arrow and normal function declaration - this value
+            default parameters
+            callback function
+            setTimeOutput(fun,time);
+            setTimeOutput(fun,time,more funs); more fun will run first
+            asynchronous programming
+            </p>
+        </ul>
+    </div>
+    <div>
+        <li>Day 11</li>
+        <ul>
+            <p>
+            d
+            </p>
+        </ul>
+    </div>
 </ul>
