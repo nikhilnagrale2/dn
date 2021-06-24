@@ -1,24 +1,25 @@
-body{
-    margin: 0 30% 0 30%;  
-    /* border: 3px solid black; */
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+body {
+  margin: 0 30% 0 30%;
+  /* border: 3px solid black; */
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.outer{
-    margin-top: 60px;
-    align-items: center;
-    background-color: teal;
-    padding: 10px;
+.outer {
+  margin-top: 60px;
+  align-items: center;
+  background-color: teal;
+  padding: 10px;
 }
 
-h1{
-    color: aquamarine;
+h1 {
+  color: aquamarine;
 }
 
-p{
-    color: whitesmoke;
+p {
+  color: whitesmoke;
 }
 
-div{
-    padding: 0 10px;
+div {
+  padding: 0 10px;
 }
