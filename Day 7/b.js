@@ -1,4 +1,8 @@
-var student = { name: "David Rayy", sclass: "VI", rollno: 12 };
+var student = {
+    name: "David Rayy",
+    sclass: "VI",
+    rollno: 12
+};
 console.log("Before Delete");
 console.log(student);
 
