@@ -1,0 +1,53 @@
+.bodyop {
+  display: block;
+  margin: 100px auto;
+  border: 3px solid teal;
+  /* padding: 0 100px; */
+}
+
+.semiheader {
+  font-style: italic;
+  font-weight: bold;
+  font-size: larger;
+  color: teal;
+}
+
+.subheader {
+  color: green;
+  font-weight: 900;
+  font-size: large;
+}
+
+.subsubheader {
+  color: darkolivegreen;
+  font-size: medium;
+}
+
+div {
+  width: 1000px;
+}
+
+.container {
+  display: flex;
+}
+
+.left {
+  padding: 10px 50px;
+  border-right: 3px solid olivedrab;
+}
+
+.right {
+  padding: 10px 50px;
+}
+
+.header {
+  display: block;
+  text-align: center;
+  align-content: center;
+  position: relative;
+  margin-top: -3em;
+  background-color: white;
+  width: 25%;
+  left: 40%;
+  color: blueviolet;
+}
