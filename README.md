@@ -207,4 +207,91 @@ x.addEventListener('click',()=>{ box.classlist.contains('classname') });
 
 ### Component Basics
 
+## Day 16
+
+### Install NodeJs, NPM
+
+- How to install create react app
+
+```js
+npm install -g create-react-app
+```
+
+- How to create react app
+
+```js
+npx create-react-app "AppName"
+```
+
+- How to start Server
+
+```js
+npm start
+```
+
+- What is BabelJs
+- How to import React and ReactDOM
+
+```js
+import React from "react";
+import ReactDOM from "react-dom";
+```
+
+- Render ReactDOM
+
+```js
+ReactDOM.render(<h1>Hello Wordl</h1>, document.getElementById("root"));
+```
+
+### Functional Components
+
+```js
+function Navbar() {
+  return <h1>Navbar</h1>;
+}
+
+function App() {
+  return (
+    <div>
+      <Navbar />
+      <h1>Hello World!</h1>
+    </div>
+  );
+}
+
+//  Prop -> FC -> JSX
+//  Call App
+ReactDOM.render(<App />, document.getElementById("root"));
+```
+
+### Import Export JSX
+
+```js
+export default App; // Export Jsx
+
+import App from "./App";
+```
+
+### Style CSS with React
+
+- create file in src
+- import css file
+- instead of class use className
+
+### Parent Child Component
+
+```js
+const Card = () => {  // parent component
+  const Image = () => { // child component
+    return <img src="https://cubettech.com.jpg" alt="" />;
+  };
+  return (
+    <div className="card">
+      <Image />
+    </div>
+    <h2>React Card</h2>
+  );
+};
+```
+
 </details>
