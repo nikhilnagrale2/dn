@@ -3,6 +3,8 @@
 <details>
   <summary>Dirty Notes Warning</summary>
 
+# **HTML CSS**
+
 ## Day 1
 
 ---
@@ -31,6 +33,8 @@
   - Aside
 
 ---
+
+# **Javascript Basics**
 
 ## Day 5
 
@@ -186,6 +190,21 @@ x.addEventListener('click',()=>{ box.classlist.contains('classname') });
 
 ## Day 13
 
+## Day 14
 
+# **REACT**
+
+## Day 15
+
+### Why we use React?
+
+- Fast, Large community, OpenSource, blah blah
+  [React JS](https://reactjs.org/)
+
+### React and Virtual DOM
+
+### JSX Basics - JavaScript XML
+
+### Component Basics
 
 </details>
