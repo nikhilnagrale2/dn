@@ -1,0 +1,105 @@
+body {
+  background-color: #e4f9f5;
+}
+
+.clock {
+  background-color: #30e3ca;
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  border: 10px solid #11999e;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.hour {
+  background-color: #303841;
+  width: 60px;
+  height: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+}
+
+.second {
+  background-color: #ff2e63;
+  width: 80px;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: rotate(90deg);
+  transform-origin: left;
+  z-index: 3;
+  animation: time 60s infinite linear;
+}
+
+.minute {
+  background-color: #6639a6;
+  width: 70px;
+  height: 3px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: rotate(45deg);
+  transform-origin: left;
+  z-index: 2;
+}
+
+.top {
+  position: absolute;
+  width: 3px;
+  height: 8px;
+  background: #262626;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.right {
+  position: absolute;
+  width: 8px;
+  height: 3px;
+  background: #262626;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto 0;
+}
+
+.bottom {
+  position: absolute;
+  width: 3px;
+  height: 8px;
+  background: #262626;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+}
+
+.left {
+  position: absolute;
+  width: 8px;
+  height: 3px;
+  background: #262626;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto 0;
+}
+
+.center {
+  height: 6px;
+  width: 6px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #fff;
+  border-radius: 100%;
+}
