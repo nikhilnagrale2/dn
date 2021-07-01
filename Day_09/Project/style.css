@@ -1,0 +1,30 @@
+body {
+  text-align: center;
+}
+
+.box:hover {
+  opacity: 0.7;
+}
+
+.container {
+  height: 480px;
+  width: 480px;
+  display: grid;
+  background-color: tomato;
+  margin: auto;
+  grid-template-columns: repeat(6, 16.7%);
+  grid-template-rows: repeat(6, 16.7%);
+  justify-items: center;
+}
+
+.box {
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  background-color: crimson;
+  border: 1px solid white;
+}
+
+.boxClick {
+  background-color: forestgreen;
+}
