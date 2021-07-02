@@ -12,16 +12,18 @@ function createOption(option, answer = false) {
   optionHolder.className = "option";
 
   const button = document.createElement("button");
+  button.innerHTML = option;
   button.addEventListener("click", () => {
-    if (answer == false) {
-      button.classList.add("wrong");
-    } else {
+    if (answer) {
       if (!button.classList.contains("correct")) {
         score++;
       }
       button.classList.add("correct");
     }
+    button.classList.add("wrong");
   });
+  optionHolder.append(button);
+  return optionHolder;
 }
 
 questions.forEach((current, number) => {
