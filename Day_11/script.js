@@ -3,6 +3,42 @@ const questions = [
     question: "who is the owner of bitcooin ?",
     options: ["Satoshi Nakamota", "Elon Musk", "Jeff Bezos", "Nikhil"],
   },
+  {
+    question: "who is the owner of bitcooin ?",
+    options: ["Satoshi Nakamota", "Elon Musk", "Jeff Bezos", "Nikhil"],
+  },
+  {
+    question: "who is the owner of bitcooin ?",
+    options: ["Satoshi Nakamota", "Elon Musk", "Jeff Bezos", "Nikhil"],
+  },
+  {
+    question: "who is the owner of bitcooin ?",
+    options: ["Satoshi Nakamota", "Elon Musk", "Jeff Bezos", "Nikhil"],
+  },
+  {
+    question: "who is the owner of bitcooin ?",
+    options: ["Satoshi Nakamota", "Elon Musk", "Jeff Bezos", "Nikhil"],
+  },
+  {
+    question: "who is the owner of bitcooin ?",
+    options: ["Satoshi Nakamota", "Elon Musk", "Jeff Bezos", "Nikhil"],
+  },
+  {
+    question: "who is the owner of bitcooin ?",
+    options: ["Satoshi Nakamota", "Elon Musk", "Jeff Bezos", "Nikhil"],
+  },
+  {
+    question: "who is the owner of bitcooin ?",
+    options: ["Satoshi Nakamota", "Elon Musk", "Jeff Bezos", "Nikhil"],
+  },
+  {
+    question: "who is the owner of bitcooin ?",
+    options: ["Satoshi Nakamota", "Elon Musk", "Jeff Bezos", "Nikhil"],
+  },
+  {
+    question: "who is the owner of bitcooin ?",
+    options: ["Satoshi Nakamota", "Elon Musk", "Jeff Bezos", "Nikhil"],
+  },
 ];
 
 let score = 0;
@@ -39,6 +75,7 @@ function createOption(option, answer = false) {
       }
       button.classList.add("correct");
     } else button.classList.add("wrong");
+    reveal(button);
   });
   optionHolder.append(button);
   return optionHolder;
@@ -52,7 +89,7 @@ questions.forEach((current, number) => {
 
   const question = document.createElement("div");
   question.className = "question";
-  question.innerHTML = `${number}. ${current.question}`;
+  question.innerHTML = `${number + 1}. ${current.question}`;
 
   container.append(question);
 
