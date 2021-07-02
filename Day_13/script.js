@@ -63,7 +63,7 @@ async function getUrl(type = "sfw", category = "waifu") {
 }
 
 async function loadImage(category) {
-  console.log(category);
+  // console.log(category);
   url = await getUrl("sfw", category);
   img.src = url;
 }
@@ -71,6 +71,6 @@ async function loadImage(category) {
 loadImage();
 
 options.addEventListener("click", (event) => {
-  console.log(event);
+  // console.log(event);
   loadImage(event.target.innerHTML);
 });
