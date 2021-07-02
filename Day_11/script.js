@@ -7,6 +7,25 @@ const questions = [
 
 let score = 0;
 
+function shuffle(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    let j = Math.floor(Math.random() * (i + 1));
+    temp = arr[i];
+    arr[i] = arr[j];
+    arr[j] = temp;
+  }
+}
+
+function reveal(option) {
+  const options = option.closest(".options");
+  console.log(options);
+  let temp = score;
+  options.querySelectorAll("button").forEach((button) => {
+    button.click();
+  });
+  score = temp;
+}
+
 function createOption(option, answer = false) {
   const optionHolder = document.createElement("div");
   optionHolder.className = "option";
@@ -19,8 +38,7 @@ function createOption(option, answer = false) {
         score++;
       }
       button.classList.add("correct");
-    }
-    button.classList.add("wrong");
+    } else button.classList.add("wrong");
   });
   optionHolder.append(button);
   return optionHolder;
@@ -47,6 +65,8 @@ questions.forEach((current, number) => {
     } else {
       optionArray.push(createOption(option));
     }
+
+    reveal(button);
   });
 
   optionArray.forEach((option) => {
@@ -55,4 +75,10 @@ questions.forEach((current, number) => {
   container.append(options);
 
   document.body.append(container);
+});
+
+const showresult = document.querySelector(".result");
+
+showresult.addEventListener("click", () => {
+  showresult.innerHTML = `${score}/${questions.length}`;
 });
