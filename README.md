@@ -237,7 +237,7 @@ async function hello() {
   return "Hello";
 }
 
-var a = hello();
+var a = hello(); // returns promise
 console.log(a); // promise
 a.then((data) => {
   console.log(data); //hello
@@ -258,7 +258,7 @@ function resolveAfter2Seconds(x) {
 }
 
 async function f1() {
-  var x = await resolveAfter2Seconds(10); // instead of promise we get data sorry I am wrong here a little
+  var x = await resolveAfter2Seconds(10);
   console.log(x); // 10
 }
 
@@ -314,6 +314,12 @@ sessionStotage.getItem("username");
 ```
 
 ## Day 14
+
+### Event Handling
+
+- Event Listner - what type
+- Event Handler
+- click, mouseOver, mouseOut, keyup, keydown, keypress, focus, blur, change, submit, onformsubmit, onoffline, onload, onresize, onvideoplay, 
 
 # **REACT**
 
