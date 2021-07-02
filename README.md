@@ -190,6 +190,129 @@ x.addEventListener('click',()=>{ box.classlist.contains('classname') });
 
 ## Day 13
 
+#### Promise
+
+```js
+let promise = new Promise((resolve, reject) => {
+  let a = 2;
+  if (a === 2) {
+    // resolve(); // promise fulfilled
+    resolve("Success"); // can also pass json data
+  } else {
+    // reject(); // uncaught error
+    reject("Failed");
+  }
+});
+
+promise.then((data)=>{
+  console.log("Promise was Resolved");
+  console.log(data);
+});
+.catch(()=>{
+  console.log("Promise was Rejected");
+})
+```
+
+- 3 types of states = resolve, pending, reject
+- works asynchronously
+- then executes when promise resolved
+- catch executes when promise rejects
+
+#### Fetch API
+
+```js
+fetch("https://api.github.com/users/nikhilnagrale2")
+  .then((res) => res.json())
+  .then((data) => console.log(data));
+```
+
+---
+
+#### Async
+
+[Async](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
+
+```js
+async function hello() {
+  return "Hello";
+}
+
+var a = hello();
+console.log(a); // promise
+a.then((data) => {
+  console.log(data); //hello
+});
+```
+
+#### Await
+
+[Await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await)
+
+```js
+function resolveAfter2Seconds(x) {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve(x);
+    }, 2000);
+  });
+}
+
+async function f1() {
+  var x = await resolveAfter2Seconds(10); // instead of promise we get data sorry I am wrong here a little
+  console.log(x); // 10
+}
+
+f1();
+```
+
+#### Browser caching
+
+#### Local Storage
+
+- Set Data
+
+```js
+localStorage.setItem("username", "op");
+```
+
+- remove Data
+
+```js
+localStorage.removeItem("username");
+```
+
+- Get Data
+
+```js
+localStorage.getItem("username");
+```
+
+- Clear Data
+
+```js
+localStorage.clear();
+```
+
+#### Session Storage
+
+- Set Data
+
+```js
+sessionStorage.setItem("username", "op");
+```
+
+- remove Data
+
+```js
+sessionStorage.removeItem("username");
+```
+
+- Get Data
+
+```js
+sessionStotage.getItem("username");
+```
+
 ## Day 14
 
 # **REACT**
