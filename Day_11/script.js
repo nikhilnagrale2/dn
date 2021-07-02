@@ -44,8 +44,9 @@ function createOption(option, answer = false) {
   return optionHolder;
 }
 
+shuffle(questions);
 questions.forEach((current, number) => {
-  console.log(current, number);
+  // console.log(current, number);
   const container = document.createElement("div");
   container.className = "container";
 
@@ -66,9 +67,10 @@ questions.forEach((current, number) => {
       optionArray.push(createOption(option));
     }
 
-    reveal(button);
+    // reveal(button);
   });
 
+  shuffle(optionArray);
   optionArray.forEach((option) => {
     options.append(option);
   });
