@@ -319,7 +319,7 @@ sessionStotage.getItem("username");
 
 - Event Listner - what type
 - Event Handler
-- click, mouseOver, mouseOut, keyup, keydown, keypress, focus, blur, change, submit, onformsubmit, onoffline, onload, onresize, onvideoplay, 
+- click, mouseOver, mouseOut, keyup, keydown, keypress, focus, blur, change, submit, onformsubmit, onoffline, onload, onresize, onvideoplay,
 
 # **REACT**
 
@@ -381,10 +381,12 @@ function Navbar() {
 
 function App() {
   return (
+    // jsx
     <div>
       <Navbar />
       <h1>Hello World!</h1>
     </div>
+    // jsx
   );
 }
 
@@ -421,6 +423,57 @@ const Card = () => {  // parent component
     <h2>React Card</h2>
   );
 };
+```
+
+## Day 17
+
+### JSX
+
+- JSX is an extension to the JavaScript language syntax
+
+```js
+const componentWithoutJSX = React.createElement(
+  "h1",
+  {
+    // attributes,
+    className: "text",
+  },
+  "Hello World"
+);
+
+const componentWithJSX = <h1 className:"text">Hello World</h1>; // babel converts to above
+
+function App() {
+  return componentWithoutJSX;
+}
+```
+
+### HTML Vs. JSX
+
+### Inline Css
+
+```js
+function App(){
+  return (
+    <div className="card" style="{{backgroundColor:"blue"}}">
+      <h1>Title</h1>
+    </div>
+  )
+}
+```
+
+### React Props
+
+```js
+function App(props){
+  return (
+    <div className="card" style="{{backgroundColor:"blue"}}">
+      <h1>Title</h1>
+    </div>
+  )
+}
+
+<App img="xyz" title="xyzs"/>
 ```
 
 </details>
