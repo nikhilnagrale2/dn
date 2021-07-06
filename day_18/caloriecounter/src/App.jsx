@@ -5,6 +5,14 @@ const Card = (props) => {
     <div className="card">
       <h1 className="food">{props.food}</h1>
       <h2 className="desc">You have consumed {props.calorie} cals today</h2>
+      {props.calorie > 180 ? (
+        <h3>
+          It Contains too much calories. Please don't eat much else you will
+          swell like ballon.
+        </h3>
+      ) : (
+        <h3>It doesn't have much calories you can eat as much as you want.</h3>
+      )}
     </div>
   );
 };
