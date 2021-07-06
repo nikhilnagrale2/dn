@@ -1,20 +1,19 @@
 import "./App.css";
 
-const Square = () => {
-  return <div className="square"></div>;
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+
+const Square = (props) => {
+  return (
+    <div className={props.odd === "true" ? "square-odd" : "square-even"}></div>
+  );
 };
 
-const Row = () => {
+const Rows = (props) => {
   return (
-    <div className="rows">
-      <Square />
-      <Square />
-      <Square />
-      <Square />
-      <Square />
-      <Square />
-      <Square />
-      <Square />
+    <div className={props.odd === "true" ? "rows-odd" : "rows-even"}>
+      {numbers.map((item) => (
+        <Square odd={item % 2 === 0 ? "false" : "true"} />
+      ))}
     </div>
   );
 };
@@ -23,14 +22,9 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <Row />
-        <Row />
-        <Row />
-        <Row />
-        <Row />
-        <Row />
-        <Row />
-        <Row />
+        {numbers.map((item) => (
+          <Rows odd={item % 2 === 0 ? "false" : "true"} />
+        ))}
       </div>
     </div>
   );
