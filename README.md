@@ -476,4 +476,17 @@ function App(props){
 <App img="xyz" title="xyzs"/>
 ```
 
+## Day 18
+
+### Inline Styling
+
+```js
+<button style={{ backgroundColor: "green", color: "blue" }}>Download</button>
+```
+
+- or simply create object and assign
+- we can also use conditionals to give different class
+
+### Reusable Components
+
 </details>
