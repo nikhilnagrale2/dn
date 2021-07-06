@@ -20,21 +20,23 @@ div {
   margin: 0;
 }
 
-.rows {
+.rows-odd,
+.rows-even {
   display: flex;
 }
 
-.square {
+.square-odd,
+.square-even {
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
 }
 
-.rows:nth-child(even) .square:nth-child(even) {
+.rows-odd .square-odd {
   background: #000;
 }
 
-.rows:nth-child(odd) .square:nth-child(odd) {
+.rows-even .square-even {
   background: #000;
 }
