@@ -1,5 +1,43 @@
 # DN Web FrontEnd
 
+[Visit Site](https://nikhilnagrale2.github.io/dn-frontend/)
+
+## Completed THA's
+
+| THA's | Title                                       | Status                                                                                    |
+| ----- | ------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| THA1  | Letter                                      | ✅ [(Visit Here)](https://nikhilnagrale2.github.io/dn-frontend/Day_01/index.html)         |
+| THA2  | Letter with CSS                             | ✅ [(Visit Here)](https://nikhilnagrale2.github.io/dn-frontend/Day_02/index.html)         |
+| THA3  | Resume                                      | ✅ [(Visit Here)](https://nikhilnagrale2.github.io/dn-frontend/Day_03/index.html)         |
+| THA4  | Clock                                       | ✅ [(Visit Here)](https://nikhilnagrale2.github.io/dn-frontend/Day_04/index.html)         |
+| THA5  | Calulator                                   | ✅ [(Visit Here)](https://nikhilnagrale2.github.io/dn-frontend/Day_05/index.html)         |
+| THA6  | Arrays                                      | ✅ [(Visit Here)](https://nikhilnagrale2.github.io/dn-frontend/Day_06/index.html)         |
+| THA7  | Objects                                     | ✅ [(Visit Here)](https://nikhilnagrale2.github.io/dn-frontend/Day_07/index.html)         |
+| THA8  | CSS Pixel Art                               | ✅ [(Visit Here)](https://nikhilnagrale2.github.io/dn-frontend/Day_08/index.html)         |
+| THA9  | Book Your Seat                              | ✅ [(Visit Here)](https://nikhilnagrale2.github.io/dn-frontend/Day_09/Project/index.html) |
+| THA10 | Memory Game Horimiya Edition                | ✅ [(Visit Here)](https://nikhilnagrale2.github.io/dn-frontend/Day_10/index.html)         |
+| THA11 | Quiz                                        | ✅ [(Visit Here)](https://nikhilnagrale2.github.io/dn-frontend/Day_11/index.html)         |
+| THA12 | Todo List with LocalStorage                 | ✅ [(Visit Here)](https://nikhilnagrale2.github.io/dn-frontend/Day_12/index.html)         |
+| THA13 | Website with API - Anime                    | ✅ [(Visit Here)](https://nikhilnagrale2.github.io/dn-frontend/Day_13/index.html)         |
+| THA14 | Use Events - Pig Game                       | ✅ [(Visit Here)](https://nikhilnagrale2.github.io/dn-frontend/Day_14/index.html)         |
+| THA15 | Functional Component                        | ✅ [(Visit Here)](https://suspicious-varahamihira-fd5683.netlify.app/)                    |
+| THA16 | Meme Card                                   | ✅ [(Visit Here)](https://pensive-goldberg-bd1338.netlify.app/)                           |
+| THA16 | Checker Board                               | ✅ [(Visit Here)](https://elegant-wescoff-6bb3b0.netlify.app/)                            |
+| THA17 | Calorie Counter With Props                  | ✅ [(Visit Here)](https://optimistic-mayer-69df31.netlify.app/)                           |
+| THA18 | Checker Board with Conditionals and Loops   | ✅ [(Visit Here)](https://elegant-almeida-d3b716.netlify.app/)                            |
+| THA18 | Calorie Counter with Conditionals and Loops | ✅ [(Visit Here)](https://epic-galileo-5406ef.netlify.app/)                               |
+| THA19 | Buttons With their Own State                | [(Visit Here)]()                                                                          |
+| THA20 | Calorie List with Delete Feature            | [(Visit Here)]()                                                                          |
+| THA21 | Calorie with Add, Delete, Edit              | [(Visit Here)]()                                                                          |
+
+## Extras
+
+| Title             | Link                                                                                           |
+| ----------------- | ---------------------------------------------------------------------------------------------- |
+| Guess Number Game | [Visit Here](https://nikhilnagrale2.github.io/dn-frontend/extras_Guess_Number_Game/index.html) |
+
+## Notes
+
 <details>
   <summary>Dirty Notes Warning</summary>
 
@@ -489,4 +527,12 @@ function App(props){
 
 ### Reusable Components
 
+## Day 19
+
+### Class Based Components
+
 </details>
+
+## [Little Good Notes JavaScript](https://github.com/nikhilnagrale2/JavaScript)
+
+## [Little Good Notes React](https://nikhilnagrale2.github.io/React/)
