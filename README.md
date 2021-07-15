@@ -876,6 +876,186 @@ function some() {
 }
 ```
 
+---
+
+## Day 20
+
+1. Events
+2. Hooks - useState, useEffect
+3. setState
+
+### Events
+
+```js
+class Football extends React.Component {
+  shoot() {
+    alert("Great Shot!");
+  }
+  render() {
+    return <button onClick={this.shoot}>Take the shot!</button>;
+  }
+}
+
+ReactDOM.render(<Football />, document.getElementById("root"));
+```
+
+### Hooks
+
+#### Use State
+
+```js
+import React, { useState, useEffect } from "react";
+function App(props) {
+  const [count, setCount] = useState(0);
+  return (
+    <div className="App">
+      <button onClick={() => {
+        count newCount = count+1;
+        setCount(newCount);
+        console.log(count);
+      }}>{count}</button>
+    </div>
+  );
+}
+```
+
+#### useEffect
+
+```js
+import React, { useState, useEffect } from "react";
+
+function App(props) {
+  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(0);
+
+  // useEffect(()=> {
+  //   console.log("DOM Updated");
+  // },[]);
+
+  useEffect(()=> {
+    console.log("DOM Updated");
+  },[count]);
+
+  return (
+    <div className="App">
+      <button onClick={() => {
+        setCount({count+1});
+        console.log(count);
+      }}>{count}</button>
+      <button onClick={() => {
+        setCount(count1+1);
+        console.log(count1+1);
+      }}>{count1}</button>
+    </div>
+  );
+}
+```
+
+## day 21
+
+- https://jsonplaceholder.typicode.com/
+
+### API
+
+```js
+import React, { Component } from "react";
+
+const Api = () => {
+  const [posts, setPosts] = useState([]);
+
+  useEffect(() => {
+    fetchItems();
+  }, []);
+
+  const fetchItems = async () => {
+    const response = await fetch("https://jsonplaceholder.typicode.com/posts");
+    const posts = await response.json();
+    // const posts_text = response.text();
+    console.log(posts, "json");
+    setPosts(posts);
+  };
+
+  const createPost = async () => {
+    await fetch("https://jsonplaceholder.typicode.com/posts", {
+      method: "POST",
+      body: JSON.stringify({ title: "foo", body: "bar", userId: 1 }),
+      headers: { "Content-type": "application/json; charset=utf-8" },
+    });
+  };
+
+  return (
+    <>
+      <button onClick={createPost}>create post</button>
+      posts.map((item, index) => {
+        <h1 className="title" key={index}>
+          {item.title}
+        </h1>;
+      });
+    </>
+  )
+};
+
+export default Api;
+```
+
+### Forms
+
+```js
+const Form = () => {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [country, setCountry] = useState("India");
+  const [acceptedTerms, setAcceptedTerms] = useState(false);
+
+  const handleSubmit = (event) => {
+    console.log(`email:${email} password:${setPassword} country:${country} terms:${acceptedTerms}`);
+    event.preventDefault(); // prevent page refresh
+    // event.stopPropogation();
+  }
+
+  return (
+    <form>
+      <h1>Create Account</h1>
+      <label>
+        Email:
+        <input
+          type="email"
+          value={email}
+          name="email"
+          onChange={(e) => setEmail(e.target.value)}
+        />
+      </label>
+
+      <label>
+        password:
+        <input
+          type="password"
+          value={password}
+          name="password"
+          onChange={(e) => setPassword(e.target.value)}
+        />
+      </label>
+
+      <label>
+        Country:
+        <select value={country} onChange={(e) => setCountry(e.target.value)}>
+        <option key="india">India</option>
+        <option key="usa">Usa</option>
+        <option key="canada">Canada</option>
+      </label>
+
+      <label>
+        <input value={acceptedTerms} type="checkbox" name="acceptedTerms" onChange={(e) => setAcceptedTerms(e.target.value)}/>
+      </label>
+
+      <button onClick={(e) =>handleSubmit(e) }>Submit</button>
+    </form>
+  );
+};
+
+export default Form;
+```
+
 </details>
 
 ## [Little Good Notes JavaScript](https://github.com/nikhilnagrale2/JavaScript)
