@@ -38,3 +38,17 @@ function App() {
 }
 
 export default App;
+/*
+function App(props) {
+  const [count,setCount] = useState(0);
+  return (
+    <div className="App">
+      <button onClick={() =>{
+        count newCount = count+1;
+        setCount(newCount);
+        console.log(count);
+      }}>{count}</button>
+    </div>
+  );
+}
+*/
