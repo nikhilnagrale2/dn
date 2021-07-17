@@ -26,9 +26,9 @@
 | THA17 | Calorie Counter With Props                  | ✅ [(Visit Here)](https://optimistic-mayer-69df31.netlify.app/)                           |
 | THA18 | Checker Board with Conditionals and Loops   | ✅ [(Visit Here)](https://elegant-almeida-d3b716.netlify.app/)                            |
 | THA18 | Calorie Counter with Conditionals and Loops | ✅ [(Visit Here)](https://epic-galileo-5406ef.netlify.app/)                               |
-| THA19 | Buttons With their Own State                | [(Visit Here)]()                                                                          |
-| THA20 | Calorie List with Delete Feature            | [(Visit Here)]()                                                                          |
-| THA21 | Calorie with Add, Delete, Edit              | [(Visit Here)]()                                                                          |
+| THA19 | Buttons With their Own State                | [(Visit Here)](https://zen-wilson-4504f6.netlify.app)                                     |
+| THA20 | Calorie List with Delete Feature            | [(Visit Here)](https://awesome-hamilton-e4d976.netlify.app/)                              |
+| THA21 | Calorie with Add, Delete, Edit              | [(Not Complete)]()                                                                          |
 
 ## Extras
 
@@ -1055,6 +1055,15 @@ const Form = () => {
 
 export default Form;
 ```
+
+</details>
+
+## Suggestions on THA's
+
+<details>
+<summary>Suggestions on THA's</summary>
+
+-
 
 </details>
 
