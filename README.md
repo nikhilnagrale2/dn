@@ -4,31 +4,32 @@
 
 ## Completed THA's
 
-| THA's | Title                                       | Status                                                                                    |
-| ----- | ------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| THA1  | Letter                                      | ✅ [(Visit Here)](https://nikhilnagrale2.github.io/dn-frontend/Day_01/index.html)         |
-| THA2  | Letter with CSS                             | ✅ [(Visit Here)](https://nikhilnagrale2.github.io/dn-frontend/Day_02/index.html)         |
-| THA3  | Resume                                      | ✅ [(Visit Here)](https://nikhilnagrale2.github.io/dn-frontend/Day_03/index.html)         |
-| THA4  | Clock                                       | ✅ [(Visit Here)](https://nikhilnagrale2.github.io/dn-frontend/Day_04/index.html)         |
-| THA5  | Calulator                                   | ✅ [(Visit Here)](https://nikhilnagrale2.github.io/dn-frontend/Day_05/index.html)         |
-| THA6  | Arrays                                      | ✅ [(Visit Here)](https://nikhilnagrale2.github.io/dn-frontend/Day_06/index.html)         |
-| THA7  | Objects                                     | ✅ [(Visit Here)](https://nikhilnagrale2.github.io/dn-frontend/Day_07/index.html)         |
-| THA8  | CSS Pixel Art                               | ✅ [(Visit Here)](https://nikhilnagrale2.github.io/dn-frontend/Day_08/index.html)         |
-| THA9  | Book Your Seat                              | ✅ [(Visit Here)](https://nikhilnagrale2.github.io/dn-frontend/Day_09/Project/index.html) |
-| THA10 | Memory Game Horimiya Edition                | ✅ [(Visit Here)](https://nikhilnagrale2.github.io/dn-frontend/Day_10/index.html)         |
-| THA11 | Quiz                                        | ✅ [(Visit Here)](https://nikhilnagrale2.github.io/dn-frontend/Day_11/index.html)         |
-| THA12 | Todo List with LocalStorage                 | ✅ [(Visit Here)](https://nikhilnagrale2.github.io/dn-frontend/Day_12/index.html)         |
-| THA13 | Website with API - Anime                    | ✅ [(Visit Here)](https://nikhilnagrale2.github.io/dn-frontend/Day_13/index.html)         |
-| THA14 | Use Events - Pig Game                       | ✅ [(Visit Here)](https://nikhilnagrale2.github.io/dn-frontend/Day_14/index.html)         |
-| THA15 | Functional Component                        | ✅ [(Visit Here)](https://suspicious-varahamihira-fd5683.netlify.app/)                    |
-| THA16 | Meme Card                                   | ✅ [(Visit Here)](https://pensive-goldberg-bd1338.netlify.app/)                           |
-| THA16 | Checker Board                               | ✅ [(Visit Here)](https://elegant-wescoff-6bb3b0.netlify.app/)                            |
-| THA17 | Calorie Counter With Props                  | ✅ [(Visit Here)](https://optimistic-mayer-69df31.netlify.app/)                           |
-| THA18 | Checker Board with Conditionals and Loops   | ✅ [(Visit Here)](https://elegant-almeida-d3b716.netlify.app/)                            |
-| THA18 | Calorie Counter with Conditionals and Loops | ✅ [(Visit Here)](https://epic-galileo-5406ef.netlify.app/)                               |
-| THA19 | Buttons With their Own State                | ✅ [(Visit Here)](https://zen-wilson-4504f6.netlify.app)                                  |
-| THA20 | Calorie List with Delete Feature            | ✅ [(Visit Here)](https://awesome-hamilton-e4d976.netlify.app/)                           |
-| THA21 | Calorie with Add, Delete, Edit              | [(Not Complete)](https://laughing-liskov-9a4f07.netlify.app/)                             |
+| THA's  | Title                                       | Status                                                                                    |
+| ------ | ------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| THA 1  | Letter                                      | ✅ [(Visit Here)](https://nikhilnagrale2.github.io/dn-frontend/Day_01/index.html)         |
+| THA 2  | Letter with CSS                             | ✅ [(Visit Here)](https://nikhilnagrale2.github.io/dn-frontend/Day_02/index.html)         |
+| THA 3  | Resume                                      | ✅ [(Visit Here)](https://nikhilnagrale2.github.io/dn-frontend/Day_03/index.html)         |
+| THA 4  | Clock                                       | ✅ [(Visit Here)](https://nikhilnagrale2.github.io/dn-frontend/Day_04/index.html)         |
+| THA 5  | Calulator                                   | ✅ [(Visit Here)](https://nikhilnagrale2.github.io/dn-frontend/Day_05/index.html)         |
+| THA 6  | Arrays                                      | ✅ [(Visit Here)](https://nikhilnagrale2.github.io/dn-frontend/Day_06/index.html)         |
+| THA 7  | Objects                                     | ✅ [(Visit Here)](https://nikhilnagrale2.github.io/dn-frontend/Day_07/index.html)         |
+| THA 8  | CSS Pixel Art                               | ✅ [(Visit Here)](https://nikhilnagrale2.github.io/dn-frontend/Day_08/index.html)         |
+| THA 9  | Book Your Seat                              | ✅ [(Visit Here)](https://nikhilnagrale2.github.io/dn-frontend/Day_09/Project/index.html) |
+| THA 10 | Memory Game Horimiya Edition                | ✅ [(Visit Here)](https://nikhilnagrale2.github.io/dn-frontend/Day_10/index.html)         |
+| THA 11 | Quiz                                        | ✅ [(Visit Here)](https://nikhilnagrale2.github.io/dn-frontend/Day_11/index.html)         |
+| THA 12 | Todo List with LocalStorage                 | ✅ [(Visit Here)](https://nikhilnagrale2.github.io/dn-frontend/Day_12/index.html)         |
+| THA 13 | Website with API - Anime                    | ✅ [(Visit Here)](https://nikhilnagrale2.github.io/dn-frontend/Day_13/index.html)         |
+| THA 14 | Use Events - Pig Game                       | ✅ [(Visit Here)](https://nikhilnagrale2.github.io/dn-frontend/Day_14/index.html)         |
+| THA 15 | Functional Component                        | ✅ [(Visit Here)](https://suspicious-varahamihira-fd5683.netlify.app/)                    |
+| THA 16 | Meme Card                                   | ✅ [(Visit Here)](https://pensive-goldberg-bd1338.netlify.app/)                           |
+| THA 16 | Checker Board                               | ✅ [(Visit Here)](https://elegant-wescoff-6bb3b0.netlify.app/)                            |
+| THA 17 | Calorie Counter With Props                  | ✅ [(Visit Here)](https://optimistic-mayer-69df31.netlify.app/)                           |
+| THA 18 | Checker Board with Conditionals and Loops   | ✅ [(Visit Here)](https://elegant-almeida-d3b716.netlify.app/)                            |
+| THA 18 | Calorie Counter with Conditionals and Loops | ✅ [(Visit Here)](https://epic-galileo-5406ef.netlify.app/)                               |
+| THA 19 | Buttons With their Own State                | ✅ [(Visit Here)](https://zen-wilson-4504f6.netlify.app)                                  |
+| THA 20 | Calorie List with Delete Feature            | ✅ [(Visit Here)](https://awesome-hamilton-e4d976.netlify.app/)                           |
+| THA 21 | Calorie with Add, Delete, Edit              | ✅ [(Visit Here)](https://laughing-liskov-9a4f07.netlify.app/)                            |
+| THA 22 | Meme Generator                              | ✅ [(Visit Here)](https://infallible-aryabhata-1ac1a4.netlify.app)                        |
 
 ## Extras
 
