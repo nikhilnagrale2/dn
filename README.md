@@ -1056,16 +1056,19 @@ const Form = () => {
 export default Form;
 ```
 
+---
+
+## day 22
+
+1. All About API's
+
+---
+
+## day 23
+
 </details>
 
 ## Suggestions on THA's
-
-<details>
-<summary>Suggestions on THA's</summary>
-
--
-
-</details>
 
 ## [Little Good Notes JavaScript](https://github.com/nikhilnagrale2/JavaScript)
 
