@@ -7,45 +7,52 @@ const Card = ({ calsT, food, id, itemName, setFoods }) => {
   const [isEditMode, setEditMode] = useState(false);
   // console.log(food);
   return (
-    <div className="card">
-      <div className="container">
+    <div className="card shadow p-3 mb-5 bg-body rounded">
+      <div className="card-body">
         {isEditMode ? (
-          <>
-            <input
-              type="text"
-              value={item}
-              onChange={(e) => {
-                setItem(e.target.value);
-              }}
-            />
-            <input
-              value={cals}
-              type="number"
-              onChange={(e) => {
-                setCals(e.target.value);
-              }}
-            ></input>
-          </>
+          <div className="d-flex justify-content-center ">
+            <div className="p-1">
+              <input
+                className="form-control"
+                type="text"
+                value={item}
+                onChange={(e) => {
+                  setItem(e.target.value);
+                }}
+              />
+            </div>
+
+            <div className="p-1">
+              <input
+                className="form-control"
+                value={cals}
+                type="number"
+                onChange={(e) => {
+                  setCals(e.target.value);
+                }}
+              ></input>
+            </div>
+          </div>
         ) : (
           <>
-            <h2 className="food">{item}</h2>
-            <h3 className="desc">You have consumed {cals} cals today</h3>
+            <h2 className="card-title">{item}</h2>
+            <p className="card-text">You have consumed {cals} cals today</p>
             {cals > 180 ? (
-              <h3>
+              <p className="card-text">
                 It Contains too much calories. Please don't eat much else you
                 will swell like ballon.
-              </h3>
+              </p>
             ) : (
-              <h3>
+              <p className="card-text">
                 It doesn't have much calories you can eat as much as you want.
-              </h3>
+              </p>
             )}
           </>
         )}
       </div>
       <div className="container">
         <button
-          className="delete"
+          className="btn btn-danger me-1"
           onClick={() => {
             console.log(food);
             console.log(id);
@@ -61,7 +68,7 @@ const Card = ({ calsT, food, id, itemName, setFoods }) => {
         </button>
         {isEditMode ? (
           <button
-            className="edit"
+            className="btn btn-success me-1"
             onClick={() => {
               // console.log(e);
               let newFoodList = food.map((i, ii) => {
@@ -81,7 +88,7 @@ const Card = ({ calsT, food, id, itemName, setFoods }) => {
           </button>
         ) : (
           <button
-            className="edit"
+            className="btn btn-secondary"
             onClick={() => {
               setEditMode(true);
             }}
@@ -97,7 +104,7 @@ const Card = ({ calsT, food, id, itemName, setFoods }) => {
 const Cards = ({ food, setFoods }) => {
   // console.log(food);
   return (
-    <div className="cards">
+    <div className="card-group fex d-flex flex-column ">
       {food.length !== 0 ? (
         food.map((item, index) => {
           // console.log(item);
@@ -113,7 +120,7 @@ const Cards = ({ food, setFoods }) => {
           );
         })
       ) : (
-        <div>No Food</div>
+        <div className="">No Food</div>
       )}
     </div>
 
@@ -139,8 +146,8 @@ function App() {
   const [cal, setCal] = useState(0);
   return (
     <div className="App">
-      <h1>Calories Counter</h1>
-      <div className="container">
+      <h1 className="text-center display-4 fw-bolder">Calories Counter</h1>
+      <div className="container ">
         <form
           className="addItem"
           onSubmit={(e) => {
@@ -154,29 +161,41 @@ function App() {
             }
           }}
         >
-          <input
-            type="text"
-            required
-            placeholder="Enter food item name"
-            value={item}
-            onChange={(e) => {
-              setItem(e.target.value);
-            }}
-          />
-          <input
-            type="number"
-            placeholder="Enter calories"
-            required
-            value={cal}
-            onChange={(e) => {
-              setCal(e.target.value);
-            }}
-          />
-          <button type="submit">Add Item</button>
+          <div className="d-flex justify-content-center">
+            <div className="p-1">
+              <input
+                className="form-control"
+                type="text"
+                required
+                placeholder="Enter food item name"
+                value={item}
+                onChange={(e) => {
+                  setItem(e.target.value);
+                }}
+              />
+            </div>
+            <div className="p-1">
+              <input
+                className="form-control"
+                type="number"
+                placeholder="Enter calories"
+                required
+                value={cal}
+                onChange={(e) => {
+                  setCal(e.target.value);
+                }}
+              />
+            </div>
+            <div className="p-1">
+              <button className="btn btn-primary" type="submit">
+                Add Item
+              </button>
+            </div>
+          </div>
         </form>
       </div>
 
-      <div className="container">
+      <div className="container p-2">
         <Cards food={food} setFoods={setFoods} />
       </div>
     </div>
