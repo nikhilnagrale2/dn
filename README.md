@@ -30,6 +30,7 @@
 | THA 20 | Calorie List with Delete Feature            | ✅ [(Visit Here)](https://awesome-hamilton-e4d976.netlify.app/)                           |
 | THA 21 | Calorie with Add, Delete, Edit              | ✅ [(Visit Here)](https://laughing-liskov-9a4f07.netlify.app/)                            |
 | THA 22 | Meme Generator                              | ✅ [(Visit Here)](https://infallible-aryabhata-1ac1a4.netlify.app)                        |
+| THA 23 |
 
 ## Extras
 
@@ -546,6 +547,22 @@ class MyComponent extends Component {
     return <h1> Hello world </h1>;
   }
 }
+```
+
+```js
+class Sample extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: "Harshith",
+    };
+  }
+  render() {
+    return <h1>{this.state.name}</h1>;
+  }
+}
+
+export default Sample;
 ```
 
 #### Props
@@ -1066,6 +1083,236 @@ export default Form;
 ---
 
 ## day 23
+
+[useHooks(🐠)](https://usehooks.com/)
+
+1. Custom hooks
+2. Hooks
+3. React Router DOM
+
+### Hooks
+
+```js
+import React, {useState} form 'react';
+
+function Sample(props){
+  const {name } = props;
+  const [state,setState]= useState(name);
+  return (
+    <div>
+      <h1>{state}</h1>
+      <button onClick={()=>{
+        setState("Harshith");
+      }}>Click Me</button>
+    </div>
+  )
+}
+
+export default Sample;
+```
+
+### Custom Hooks
+
+```js
+// UseArray
+// useCallback
+import React, {useCallback, useState} form 'react';
+import { useCallback } from "react";
+const memizedCallback = useCallback{
+  ()=>{
+    doSomething(a,b);
+  },[a,b]
+}
+```
+
+```js
+// value, setValue, add, clear, removeById, removeIndex
+
+export const useArray = (initial) => {
+  const [value, setValue] = useState(initial);
+
+  return {
+    value,
+    setValue,
+    add: useCallback((a) => setVAlue((v) => [...v, a])),
+    clear: useCallback((a) => setValue(() => [])),
+    removeById: useCallback((id) =>
+      setValue((arr) => arr.filter((v) => v && v.id !== id))
+    ),
+    removebyIndex: useCallback((index) =>
+      setValue((v) => {
+        arr.filter((v) => v);
+      })
+    ),
+  };
+};
+
+///////////////////////////////////////
+import { useArray } from "./useArray";
+
+function Sample(props) {
+  const todos = useArray(["hi", "hr"]);
+
+  return (
+    <div>
+      <h3> Todos </h3>
+      <button
+        onClick={() => {
+          todos.add(Math.random());
+        }}
+      >
+        add
+      </button>
+      <ul>
+        {todos.value.map((todo, i) => {
+          <li key={i}>
+            {todo}
+            <button
+              onClick={() => {
+                todos.removeById(todo);
+              }}
+            >
+              Delete
+            </button>
+          </li>;
+        })}
+      </ul>
+      <button onClick={() => todos.clear()}>Clear</button>
+    </div>
+  );
+}
+```
+
+```js
+export function useUnSplashPhotos(secret, query) {
+  const [images, setImages] = useState([]);
+  const [error, setError] = useState(undefined);
+  const [loading, setLoading] = useState(false);
+
+  const url = `https://api.unsplash.com?query=${query}`;
+
+  useEffectt(() => {
+    console.log("called");
+  }, [query]);
+}
+
+function Sample(props) {
+  const [query, setQuery] = useState("animals");
+  const [images, error, loading] = useUnSplashPhotos("secret", query);
+
+  return (
+    <div>
+      <h1>Sample</h1>
+      <ul>
+        <li>
+          Animals<button onClick={() => setQuery("animals")}>Change</button>
+        </li>
+        <li>
+          Flowers<button onClick={() => setQuery("flowers")}>Change</button>
+        </li>
+      </ul>
+    </div>
+  );
+}
+```
+
+### [React Router]("https://reactrouter.com/")
+
+```js
+npm install react-router-dom
+
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
+export default function App() {
+  return (
+    <Router>
+      <div>
+        <nav>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/about">About</Link>
+            </li>
+            <li>
+              <Link to="/users">Users</Link>
+            </li>
+          </ul>
+        </nav>
+
+        {/* A <Switch> looks through its children <Route>s and
+            renders the first one that matches the current URL. */}
+        <Switch>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/users">
+            <Users />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
+  );
+}
+
+function Home() {
+  return <h2>Home</h2>;
+}
+
+function About() {
+  return <h2>About</h2>;
+}
+
+function Users() {
+  return <h2>Users</h2>;
+}
+```
+
+---
+
+## Day 24
+
+1. State Management
+2. Reducer, Context and Other things
+3. Example
+
+### State Management
+
+### Reducer
+
+```js
+const NamesContext = React.createContext();
+
+function nameReducer(state, action) {
+  switch (action.type) {
+    case "saveAnimalNames": {
+      return { animalNames: state.animalNames };
+    }
+
+    case "saveHumanNames": {
+      return { humanNames: state.humanNames };
+    }
+
+    default: {
+      throw new Error(`Unhandled action type: ${action.type}`);
+    }
+  }
+}
+
+function NamesProvider({ children }) {
+  const [state, dispatch] = React.useReducer(namesProducer, { count: 0 });
+}
+```
 
 </details>
 
