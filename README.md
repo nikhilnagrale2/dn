@@ -1314,6 +1314,13 @@ function NamesProvider({ children }) {
 }
 ```
 
+---
+
+## Day 25
+
+1. CSS Framework
+2. Usage of Bootstrap and tailwind
+
 </details>
 
 ## Suggestions on THA's
