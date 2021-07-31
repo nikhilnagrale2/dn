@@ -30,7 +30,8 @@
 | THA 20 | Calorie List with Delete Feature            | ✅ [(Visit Here)](https://awesome-hamilton-e4d976.netlify.app/)                           |
 | THA 21 | Calorie with Add, Delete, Edit              | ✅ [(Visit Here)](https://laughing-liskov-9a4f07.netlify.app/)                            |
 | THA 22 | Meme Generator                              | ✅ [(Visit Here)](https://infallible-aryabhata-1ac1a4.netlify.app)                        |
-| THA 23 |
+| THA 23 | Anime Quote                                 | ✅ [(Visit Here)](https://relaxed-gates-18783d.netlify.app)                               |
+| THA 24 | Route Conditional Login                     | ✅ [(Visit Here)](https://eloquent-sinoussi-4a2243.netlify.app)                         |
 
 ## Extras
 
