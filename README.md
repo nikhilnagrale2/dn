@@ -31,7 +31,7 @@
 | THA 21 | Calorie with Add, Delete, Edit              | ✅ [(Visit Here)](https://laughing-liskov-9a4f07.netlify.app/)                            |
 | THA 22 | Meme Generator                              | ✅ [(Visit Here)](https://infallible-aryabhata-1ac1a4.netlify.app)                        |
 | THA 23 | Anime Quote                                 | ✅ [(Visit Here)](https://relaxed-gates-18783d.netlify.app)                               |
-| THA 24 | Route Conditional Login                     | ✅ [(Visit Here)](https://eloquent-sinoussi-4a2243.netlify.app)                         |
+| THA 24 | Route Conditional Login                     | ✅ [(Visit Here)](https://eloquent-sinoussi-4a2243.netlify.app)                           |
 
 ## Extras
 
@@ -42,7 +42,7 @@
 ## Notes
 
 <details>
-  <summary>Dirty Notes Warning</summary>
+  <summary>Bad Notes :Warning</summary>
 
 # **HTML CSS**
 
@@ -1321,6 +1321,23 @@ function NamesProvider({ children }) {
 
 1. CSS Framework
 2. Usage of Bootstrap and tailwind
+
+---
+
+## Day 26
+
+1. Redux
+2. Redux Uses
+3. Actions
+4. Reducers
+5. Store
+
+### Redux
+
+```js
+npm install redux
+npm install react-redux
+```
 
 </details>
 
