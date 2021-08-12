@@ -1339,6 +1339,13 @@ npm install redux
 npm install react-redux
 ```
 
+## day 27
+
+1. todo list using redux
+2. middleware
+   - Logger
+   - Thunk - asynchronous
+
 </details>
 
 ## Suggestions on THA's
