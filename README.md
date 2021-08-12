@@ -1346,6 +1346,20 @@ npm install react-redux
    - Logger
    - Thunk - asynchronous
 
+## day 28 29
+
+1. Weather App
+
+## Day 30 31
+
+1. ECommerce APP
+
+## Day 32
+
+1. TypeScript Basics
+
+### Day 33
+
 </details>
 
 ## Suggestions on THA's
